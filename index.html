@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Control task</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="startScreen">
+
+      <div id="box1">
+        <p>Lorem insum dolor sit amet</p>
+        <p>Lorem insum dolor sit amet</p>
+        <p>Lorem insum dolor sit amet</p>
+        <p>Lorem insum dolor sit amet</p>
+        <p>Lorem insum dolor sit amet</p>
+      </div>
+      <div id="box2">
+        <input type="button" value="edit" class="btn btn-warning" id="editBtn">
+        <input type="button" value="style" class="btn btn-primary" id="styleBtn">
+      </div>
+
+      <div id="box3">
+        <div id="textAreaDiv">
+          <textarea cols="30" rows="10" class="textArea" id="textarea"></textarea>
+          <input type="button" value="add" class="btn btn-danger" id="addBtn">
+          <input type="button" value="save" class="btn btn-success" id="saveBtn">
+        </div>
+
+        <div id="style">
+          <form action="" name="formaStyle">
+            <p class="styleProperty">Font size:</p>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="chooseFontSize" class="custom-control-input" value="12">
+              <label class="custom-control-label" for="customRadioInline1">12px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="chooseFontSize" class="custom-control-input" value="14">
+              <label class="custom-control-label" for="customRadioInline2">14px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline3" name="chooseFontSize" class="custom-control-input" value="16">
+              <label class="custom-control-label" for="customRadioInline3">16px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline4" name="chooseFontSize" class="custom-control-input" value="18">
+              <label class="custom-control-label" for="customRadioInline4">18px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline5" name="chooseFontSize" class="custom-control-input" value="20">
+              <label class="custom-control-label" for="customRadioInline5">20px</label>
+            </div>
+            <div>
+              <p class="styleProperty">Font size:</p>
+              <select name="fontStyle" id="font" class="custom-select">
+                <option value="Choose">Choose option</option>
+                <option value="cursive">cursive</option>
+                <option value="fantasy">fantasy</option>
+                <option value="monospace">monospace</option>
+                <option value="sens-serif">sens-serif</option>
+              </select>
+            </div>
+            <div>
+              <p class="styleProperty">Colors:</p>
+              <input type="button" value="Color of Text" class="btn btn-secondary" name="selectTextColor">
+              <input type="button" value="Background color" class="btn btn-secondary" name="selectBackgroundColor">
+            </div>
+            <div>
+              <p class="styleProperty">Style:</p>
+              <div class="custom-control custom-checkbox" id="inlineCheckBox1">
+                <input type="checkbox" class="custom-control-input" id="customCheck1" name="bold">
+                <label class="custom-control-label" for="customCheck1">Bolt text</label>
+              </div>
+              <div class="custom-control custom-checkbox" id="inlineCheckBox1">
+                <input type="checkbox" class="custom-control-input" id="customCheck2" name="cursive">
+                <label class="custom-control-label" for="customCheck2">Cursive text</label>
+              </div>
+              <div  class="colorFontStyle">
+                <a class="firebrick"></a>
+                <a class="blue"></a>
+                <a class="forestgreen"></a>
+                <a class="goldenrod"></a>
+                <a class="black"></a>
+                <a class="blueviolet"></a>
+                <a class="cyan"></a>
+                <a class="maroon"></a>
+                <a class="lawngreen"></a>
+              </div>
+              <div  class="colorForMainbox">
+                <a class="firebrick"></a>
+                <a class="blue"></a>
+                <a class="forestgreen"></a>
+                <a class="goldenrod"></a>
+                <a class="black"></a>
+                <a class="blueviolet"></a>
+                <a class="cyan"></a>
+                <a class="maroon"></a>
+                <a class="lawngreen"></a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="additionalScreen">
+      <h1>Choose what do you want</h1>
+      <form action="" name="tableProperty">
+        <div id="chooseTableOrList">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="tableOrList1" name="tabelList" class="custom-control-input" value="table" unchecked>
+            <label class="custom-control-label" for="tableOrList1">table</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="tableOrList2" name="tabelList" class="custom-control-input" value="list" unchecked>
+            <label class="custom-control-label" for="tableOrList2">list</label>
+          </div>
+        </div>
+      </form>
+      <form name="tableForm">
+        <div id="forTable">
+
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName"> Count TR: </div>
+            <input type="text" class="form-control form-size" name="rowCount" placeholder="Count TR:">
+          </div>
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName">Count TD: </div>
+            <input type="text" class="form-control form-size" name="columnCount" placeholder="Count TD:">
+          </div>
+          <h3>Add style to your table</h3>
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName"> Width of TD: </div>
+            <input type="text" class="form-control form-size" name="tdWidth" placeholder="Width of TD:">
+          </div>
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName"> Height of TD: </div>
+            <input type="text" class="form-control form-size" name="tdHeight" placeholder="Height of TD:">
+          </div>
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName"> Width of border: </div>
+            <input type="text" class="form-control form-size2" name="borderWidth" placeholder="Width">
+            <div class="tablePropertyName"> Type of border: </div>
+            <select type="text" class="form-control form-size2" id="borderType">
+              <option value="solid">solid</option>
+              <option value="double">double</option>
+              <option value="dotted">dotted</option>
+              <option value="dashed">dashed</option>
+            </select>
+
+            <div class="tablePropertyName"> Color of border: </div>
+            <select type="text" class="form-control form-size2" id="borderColor">
+              <option value="black">black</option>
+              <option value="red">red</option>
+              <option value="blue">blue</option>
+              <option value="green">green</option>
+            </select>
+          </div>
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName">
+              <input type="button" value="Create table" class="btn btn-success" name="creatTable">
+            </div>
+          </div>
+
+        </div>
+      </form>
+      <form name="listForm">
+        <div id="forList">
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName"> Count Li: </div>
+            <input type="text" class="form-control form-size" name="countOfList" placeholder="Count Li:">
+          </div>
+
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName">Type of marks: </div>
+            <select type="text" class="form-control form-size" id="marksType">
+              <option value="circle">circle</option>
+              <option value="disc">disc</option>
+              <option value="square">square</option>
+            </select>
+          </div>
+          <div class="input-group-prepend tableProperty">
+            <div class="tablePropertyName">
+              <input type="button" value="Create list" class="btn btn-success" name="creatList">
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

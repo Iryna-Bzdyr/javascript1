@@ -1,0 +1,136 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 350px  54px 350px;
+
+}
+#additionalScreen{
+    height: 500px;
+    background-color:  rgb(228, 224, 224);
+    border-radius: 4px;
+    padding: 20px;
+    display: none;
+}
+#textAreaDiv{
+display: none;
+}
+
+#forTable{
+    display: none;
+}
+#forList{
+    display: none;
+}
+#box1{
+    background-color:  rgb(228, 224, 224);
+    border-radius: 4px;
+    padding: 20px;
+}
+#box3{
+    background-color: rgb(228, 224, 224);
+    border-radius: 4px;
+    padding: 15px;
+    height: 300px;
+}
+#box2{
+    
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+
+}
+.textArea{
+    width: 900px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid rgb(86, 167, 187);
+    border-radius: 3px;
+}
+
+#font{
+    width: 360px;
+}
+#inlineCheckBox1{
+    display: inline-block;
+}
+#inlineCheckBox2{
+    display: inline-block;
+}
+#style{
+    margin: 0 auto;
+    display: none;
+    padding: 20px; 
+    margin-top: -20px;    
+}
+.styleProperty{
+   font-weight: bold;
+    margin: 7px;
+}
+
+.colorFontStyle {
+    display: none;
+    grid-template-rows: 70px  70px 70px 70px;
+    grid-template-columns: 70px 70px 70px;
+    margin-left: 600px;
+    margin-top: -250px;
+}
+
+.colorForMainbox {
+    display: none;
+    grid-template-rows: 70px  70px 70px 70px;
+    grid-template-columns: 70px 70px 70px;
+    margin-left: 600px;
+    margin-top: -250px;
+}
+#colorBox{
+display: none;
+}
+.firebrick{
+    background-color:firebrick;
+}
+.blue{
+    background-color:blue;
+}
+.forestgreen{
+    background-color:forestgreen;
+}
+.goldenrod{
+    background-color:goldenrod;
+}
+.black{
+    background-color:black;
+}
+.blueviolet{
+    background-color:blueviolet;
+}
+.cyan{
+    background-color:cyan;
+}
+.maroon{
+    background-color:maroon;
+}
+.lawngreen{
+    background-color:lawngreen;
+}
+
+.tableProperty{
+    font-weight: bold;
+    width: 960px;
+margin: 5px;
+}
+.tablePropertyName{
+    width: 20%;
+    padding: 10px;
+}
+
+.form-size{
+width: 80%;
+
+}
+
+.form-size2{
+    width: 13.333%;
+    
+    }
+    
